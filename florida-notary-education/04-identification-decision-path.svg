@@ -1,0 +1,66 @@
+<svg viewBox="0 0 760 520" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect width="760" height="520" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Identification Decision Path</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#374151">Florida Statutes s. 117.05(5)</text>
+
+  <!-- Start -->
+  <rect x="280" y="78" width="200" height="46" rx="23" fill="#1E2A8E"/>
+  <text x="380" y="106" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">A signer needs a notarization</text>
+
+  <!-- Q1 personal knowledge -->
+  <polygon points="380,140 530,182 380,224 230,182" fill="#D4AF37"/>
+  <text x="380" y="178" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">Do you know them from</text>
+  <text x="380" y="196" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">a history of dealings?</text>
+
+  <!-- Q1 -> proceed (yes) -->
+  <line x1="530" y1="182" x2="640" y2="182" stroke="#374151" stroke-width="2"/>
+  <text x="585" y="174" text-anchor="middle" font-size="12" font-weight="bold" fill="#3E9B6B">YES</text>
+  <text x="585" y="172" text-anchor="middle" font-size="12" fill="#374151"> </text>
+
+  <!-- Q2 acceptable ID -->
+  <polygon points="380,240 530,288 380,336 230,288" fill="#D4AF37"/>
+  <text x="380" y="284" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">Can they show an</text>
+  <text x="380" y="302" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">acceptable ID?</text>
+
+  <!-- Q1 no -> Q2 -->
+  <line x1="380" y1="224" x2="380" y2="240" stroke="#374151" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="398" y="236" font-size="12" font-weight="bold" fill="#C4683A">NO</text>
+
+  <!-- Q3 credible witness -->
+  <polygon points="380,352 530,400 380,448 230,400" fill="#D4AF37"/>
+  <text x="380" y="396" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">Is a credible witness</text>
+  <text x="380" y="414" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">available?</text>
+
+  <!-- Q2 no -> Q3 -->
+  <line x1="380" y1="336" x2="380" y2="352" stroke="#374151" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="398" y="348" font-size="12" font-weight="bold" fill="#C4683A">NO</text>
+
+  <!-- PROCEED box (right) -->
+  <rect x="600" y="159" width="140" height="180" rx="10" fill="#3E9B6B"/>
+  <text x="670" y="240" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">PROCEED</text>
+  <text x="670" y="264" text-anchor="middle" font-size="12" fill="#FFFFFF">You have a</text>
+  <text x="670" y="280" text-anchor="middle" font-size="12" fill="#FFFFFF">lawful basis</text>
+
+  <!-- Q2 yes -> proceed -->
+  <line x1="530" y1="288" x2="600" y2="288" stroke="#374151" stroke-width="2"/>
+  <text x="560" y="280" text-anchor="middle" font-size="12" font-weight="bold" fill="#3E9B6B">YES</text>
+
+  <!-- Q3 yes -> proceed -->
+  <line x1="530" y1="400" x2="670" y2="400" stroke="#374151" stroke-width="2"/>
+  <line x1="670" y1="400" x2="670" y2="339" stroke="#374151" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="560" y="392" text-anchor="middle" font-size="12" font-weight="bold" fill="#3E9B6B">YES</text>
+
+  <!-- REFUSE box -->
+  <rect x="120" y="470" width="520" height="40" rx="10" fill="#C4683A"/>
+  <text x="380" y="496" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">REFUSE: no lawful basis to identify the signer</text>
+
+  <!-- Q3 no -> refuse -->
+  <line x1="380" y1="448" x2="380" y2="470" stroke="#374151" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="398" y="464" font-size="12" font-weight="bold" fill="#C4683A">NO</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#374151"/>
+    </marker>
+  </defs>
+</svg>

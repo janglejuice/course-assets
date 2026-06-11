@@ -1,0 +1,69 @@
+<svg viewBox="0 0 760 470" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="470" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Three Lanes, One Destination</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#374151">Every lane ends in a valid notarization. They differ on where the signer is.</text>
+
+  <!-- Column headers -->
+  <rect x="30" y="74" width="226" height="44" rx="8" fill="#374151"/>
+  <text x="143" y="102" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Paper</text>
+
+  <rect x="267" y="74" width="226" height="44" rx="8" fill="#1E2A8E"/>
+  <text x="380" y="102" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Electronic</text>
+
+  <rect x="504" y="74" width="226" height="44" rx="8" fill="#C4683A"/>
+  <text x="617" y="102" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Remote online</text>
+
+  <!-- Row labels down the left as floating tags -->
+  <!-- Row 1: Document -->
+  <text x="143" y="150" text-anchor="middle" font-size="12" font-weight="bold" fill="#111827">Document</text>
+  <text x="143" y="170" text-anchor="middle" font-size="12.5" fill="#374151">Ink on paper</text>
+  <text x="380" y="150" text-anchor="middle" font-size="12" font-weight="bold" fill="#111827">Document</text>
+  <text x="380" y="170" text-anchor="middle" font-size="12.5" fill="#374151">Digital file</text>
+  <text x="617" y="150" text-anchor="middle" font-size="12" font-weight="bold" fill="#111827">Document</text>
+  <text x="617" y="170" text-anchor="middle" font-size="12.5" fill="#374151">Digital file</text>
+
+  <line x1="30" y1="184" x2="730" y2="184" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <!-- Row 2: Seal -->
+  <text x="143" y="208" text-anchor="middle" font-size="12" font-weight="bold" fill="#111827">Seal</text>
+  <text x="143" y="228" text-anchor="middle" font-size="12.5" fill="#374151">Rubber stamp</text>
+  <text x="380" y="208" text-anchor="middle" font-size="12" font-weight="bold" fill="#111827">Seal</text>
+  <text x="380" y="228" text-anchor="middle" font-size="12.5" fill="#374151">Electronic seal</text>
+  <text x="617" y="208" text-anchor="middle" font-size="12" font-weight="bold" fill="#111827">Seal</text>
+  <text x="617" y="228" text-anchor="middle" font-size="12.5" fill="#374151">Electronic seal</text>
+
+  <line x1="30" y1="242" x2="730" y2="242" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <!-- Row 3: Where the signer is (the differentiator) -->
+  <rect x="30" y="252" width="226" height="64" rx="8" fill="#3E9B6B" opacity="0.14"/>
+  <rect x="267" y="252" width="226" height="64" rx="8" fill="#3E9B6B" opacity="0.14"/>
+  <rect x="504" y="252" width="226" height="64" rx="8" fill="#C4683A" opacity="0.14"/>
+  <text x="143" y="276" text-anchor="middle" font-size="12" font-weight="bold" fill="#3E9B6B">Signer is</text>
+  <text x="143" y="296" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#111827">In the room</text>
+  <text x="380" y="276" text-anchor="middle" font-size="12" font-weight="bold" fill="#3E9B6B">Signer is</text>
+  <text x="380" y="296" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#111827">In the room</text>
+  <text x="617" y="276" text-anchor="middle" font-size="12" font-weight="bold" fill="#C4683A">Signer is</text>
+  <text x="617" y="296" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#111827">On live video</text>
+
+  <line x1="30" y1="330" x2="730" y2="330" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <!-- Row 4: Physical presence -->
+  <text x="143" y="354" text-anchor="middle" font-size="12" font-weight="bold" fill="#111827">Physical presence</text>
+  <text x="143" y="374" text-anchor="middle" font-size="12.5" fill="#3E9B6B">Required</text>
+  <text x="380" y="354" text-anchor="middle" font-size="12" font-weight="bold" fill="#111827">Physical presence</text>
+  <text x="380" y="374" text-anchor="middle" font-size="12.5" fill="#3E9B6B">Required</text>
+  <text x="617" y="354" text-anchor="middle" font-size="12" font-weight="bold" fill="#111827">Physical presence</text>
+  <text x="617" y="374" text-anchor="middle" font-size="12.5" fill="#C4683A">Replaced by video</text>
+
+  <line x1="30" y1="388" x2="730" y2="388" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <!-- Row 5: Extra registration -->
+  <text x="143" y="412" text-anchor="middle" font-size="12" font-weight="bold" fill="#111827">Extra registration</text>
+  <text x="143" y="432" text-anchor="middle" font-size="12.5" fill="#374151">None</text>
+  <text x="380" y="412" text-anchor="middle" font-size="12" font-weight="bold" fill="#111827">Extra registration</text>
+  <text x="380" y="432" text-anchor="middle" font-size="12.5" fill="#374151">None</text>
+  <text x="617" y="412" text-anchor="middle" font-size="12" font-weight="bold" fill="#111827">Extra registration</text>
+  <text x="617" y="432" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#C4683A">RON registration</text>
+
+  <text x="380" y="458" text-anchor="middle" font-size="11.5" fill="#374151">Governing law: paper and electronic, s. 117.021 and the core acts; remote online, Part II of Ch. 117.</text>
+</svg>

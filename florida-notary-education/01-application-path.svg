@@ -1,0 +1,41 @@
+<svg viewBox="0 0 760 280" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="280" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#141B5C">The Florida Notary Application Path</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#374151">Four stages, in order, from first-time education to commission in hand</text>
+
+  <!-- connector line -->
+  <line x1="110" y1="150" x2="650" y2="150" stroke="#E5E7EB" stroke-width="4"/>
+
+  <!-- Stage 1: Education -->
+  <circle cx="110" cy="150" r="34" fill="#1E2A8E"/>
+  <text x="110" y="156" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="110" y="210" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Education</text>
+  <text x="110" y="230" text-anchor="middle" font-size="11" fill="#374151">3 hours, first-time</text>
+  <text x="110" y="245" text-anchor="middle" font-size="11" fill="#374151">applicants</text>
+
+  <!-- Stage 2: Bond -->
+  <circle cx="290" cy="150" r="34" fill="#3E9B6B"/>
+  <text x="290" y="156" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">2</text>
+  <text x="290" y="210" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Bond</text>
+  <text x="290" y="230" text-anchor="middle" font-size="11" fill="#374151">$7,500 surety</text>
+  <text x="290" y="245" text-anchor="middle" font-size="11" fill="#374151">+ E&amp;O optional</text>
+
+  <!-- Stage 3: Application -->
+  <circle cx="470" cy="150" r="34" fill="#C4683A"/>
+  <text x="470" y="156" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">3</text>
+  <text x="470" y="210" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Application + Oath</text>
+  <text x="470" y="230" text-anchor="middle" font-size="11" fill="#374151">$25 + $10 + $4 fees,</text>
+  <text x="470" y="245" text-anchor="middle" font-size="11" fill="#374151">sworn, via agency</text>
+
+  <!-- Stage 4: Commission -->
+  <circle cx="650" cy="150" r="34" fill="#D4AF37"/>
+  <text x="650" y="156" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">4</text>
+  <text x="650" y="210" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Commission</text>
+  <text x="650" y="230" text-anchor="middle" font-size="11" fill="#374151">4-year term;</text>
+  <text x="650" y="245" text-anchor="middle" font-size="11" fill="#374151">check name spelling</text>
+
+  <!-- arrowheads -->
+  <polygon points="196,150 188,145 188,155" fill="#374151"/>
+  <polygon points="376,150 368,145 368,155" fill="#374151"/>
+  <polygon points="556,150 548,145 548,155" fill="#374151"/>
+</svg>

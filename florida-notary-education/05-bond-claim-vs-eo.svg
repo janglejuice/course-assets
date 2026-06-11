@@ -1,0 +1,55 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="470" fill="#FFFFFF"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Bond Protects the Public. E&amp;O Protects You.</text>
+
+  <!-- Divider -->
+  <line x1="360" y1="60" x2="360" y2="450" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- LEFT: Bond claim -->
+  <text x="180" y="84" text-anchor="middle" font-size="16" font-weight="bold" fill="#C4683A">A bond claim ($7,500)</text>
+
+  <rect x="70" y="100" width="220" height="56" rx="8" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+  <text x="180" y="125" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">Harmed party</text>
+  <text x="180" y="143" text-anchor="middle" font-size="12" fill="#374151">files a claim</text>
+
+  <line x1="180" y1="156" x2="180" y2="186" stroke="#C4683A" stroke-width="2.5"/>
+  <polygon points="180,194 174,184 186,184" fill="#C4683A"/>
+
+  <rect x="70" y="196" width="220" height="56" rx="8" fill="#C4683A" opacity="0.14" stroke="#C4683A" stroke-width="1.5"/>
+  <text x="180" y="221" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">Surety pays the public</text>
+  <text x="180" y="239" text-anchor="middle" font-size="12" fill="#374151">up to $7,500</text>
+
+  <line x1="180" y1="252" x2="180" y2="282" stroke="#C4683A" stroke-width="2.5"/>
+  <polygon points="180,290 174,280 186,280" fill="#C4683A"/>
+
+  <rect x="70" y="292" width="220" height="60" rx="8" fill="#141B5C"/>
+  <text x="180" y="317" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Surety recovers from YOU</text>
+  <text x="180" y="336" text-anchor="middle" font-size="12" fill="#FFFFFF">you repay every dollar</text>
+
+  <text x="180" y="392" text-anchor="middle" font-size="12.5" fill="#374151">Required. Faces outward.</text>
+  <text x="180" y="410" text-anchor="middle" font-size="12.5" fill="#374151">Your liability funds it.</text>
+
+  <!-- RIGHT: E&O -->
+  <text x="540" y="84" text-anchor="middle" font-size="16" font-weight="bold" fill="#3E9B6B">E&amp;O insurance (optional)</text>
+
+  <rect x="430" y="100" width="220" height="56" rx="8" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+  <text x="540" y="125" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">You make an honest</text>
+  <text x="540" y="143" text-anchor="middle" font-size="12" fill="#374151">covered mistake</text>
+
+  <line x1="540" y1="156" x2="540" y2="186" stroke="#3E9B6B" stroke-width="2.5"/>
+  <polygon points="540,194 534,184 546,184" fill="#3E9B6B"/>
+
+  <rect x="430" y="196" width="220" height="56" rx="8" fill="#3E9B6B" opacity="0.16" stroke="#3E9B6B" stroke-width="1.5"/>
+  <text x="540" y="221" text-anchor="middle" font-size="13" font-weight="bold" fill="#3E9B6B">Insurer pays the claim</text>
+  <text x="540" y="239" text-anchor="middle" font-size="12" fill="#374151">and your defense costs</text>
+
+  <line x1="540" y1="252" x2="540" y2="282" stroke="#3E9B6B" stroke-width="2.5"/>
+  <polygon points="540,290 534,280 546,280" fill="#3E9B6B"/>
+
+  <rect x="430" y="292" width="220" height="60" rx="8" fill="#3E9B6B"/>
+  <text x="540" y="317" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">YOU pay nothing back</text>
+  <text x="540" y="336" text-anchor="middle" font-size="12" fill="#FFFFFF">no recovery against you</text>
+
+  <text x="540" y="392" text-anchor="middle" font-size="12.5" fill="#374151">Optional. Faces inward.</text>
+  <text x="540" y="410" text-anchor="middle" font-size="12.5" fill="#374151">It actually protects you.</text>
+</svg>

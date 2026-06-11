@@ -1,0 +1,53 @@
+<svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="440" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The RON Session Pipeline</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#374151">Two identity safeguards must pass before the live act. The act then feeds the records.</text>
+
+  <!-- Stage 1: Identity proofing -->
+  <rect x="40" y="86" width="200" height="92" rx="10" fill="#1E2A8E" opacity="0.12" stroke="#1E2A8E" stroke-width="2"/>
+  <text x="140" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">Safeguard 1</text>
+  <text x="140" y="134" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Identity proofing</text>
+  <text x="140" y="154" text-anchor="middle" font-size="11.5" fill="#374151">Knowledge-based</text>
+  <text x="140" y="169" text-anchor="middle" font-size="11.5" fill="#374151">authentication questions</text>
+
+  <!-- Stage 2: Credential analysis -->
+  <rect x="40" y="206" width="200" height="92" rx="10" fill="#1E2A8E" opacity="0.12" stroke="#1E2A8E" stroke-width="2"/>
+  <text x="140" y="232" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">Safeguard 2</text>
+  <text x="140" y="254" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Credential analysis</text>
+  <text x="140" y="274" text-anchor="middle" font-size="11.5" fill="#374151">Automated check of the</text>
+  <text x="140" y="289" text-anchor="middle" font-size="11.5" fill="#374151">government photo ID</text>
+
+  <!-- Gate label -->
+  <text x="140" y="324" text-anchor="middle" font-size="12" font-weight="bold" fill="#C4683A">Both must pass to proceed</text>
+
+  <!-- Arrows from both safeguards into the act -->
+  <line x1="240" y1="132" x2="300" y2="180" stroke="#1E2A8E" stroke-width="2.5"/>
+  <polygon points="305,184 294,180 300,172" fill="#1E2A8E"/>
+  <line x1="240" y1="252" x2="300" y2="204" stroke="#1E2A8E" stroke-width="2.5"/>
+  <polygon points="305,200 294,204 300,212" fill="#1E2A8E"/>
+
+  <!-- Stage 3: Live act (center) -->
+  <rect x="310" y="148" width="200" height="92" rx="10" fill="#3E9B6B"/>
+  <text x="410" y="176" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Live audio-video act</text>
+  <text x="410" y="198" text-anchor="middle" font-size="11.5" fill="#FFFFFF">Signer appears by webcam</text>
+  <text x="410" y="214" text-anchor="middle" font-size="11.5" fill="#FFFFFF">Notary confirms willingness,</text>
+  <text x="410" y="229" text-anchor="middle" font-size="11.5" fill="#FFFFFF">signs and seals electronically</text>
+
+  <!-- Arrow to records -->
+  <line x1="510" y1="194" x2="568" y2="194" stroke="#374151" stroke-width="2.5"/>
+  <polygon points="574,194 564,189 564,199" fill="#374151"/>
+
+  <!-- Stage 4: Records -->
+  <rect x="578" y="120" width="160" height="68" rx="10" fill="#D4AF37" opacity="0.20" stroke="#D4AF37" stroke-width="2"/>
+  <text x="658" y="148" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Electronic journal</text>
+  <text x="658" y="168" text-anchor="middle" font-size="11.5" fill="#374151">Mandatory entry</text>
+
+  <rect x="578" y="200" width="160" height="68" rx="10" fill="#D4AF37" opacity="0.20" stroke="#D4AF37" stroke-width="2"/>
+  <text x="658" y="228" text-anchor="middle" font-size="13" font-weight="bold" fill="#141B5C">Retained recording</text>
+  <text x="658" y="248" text-anchor="middle" font-size="11.5" fill="#374151">Audio-video kept</text>
+
+  <!-- Location facts strip -->
+  <rect x="40" y="356" width="698" height="58" rx="10" fill="#141B5C"/>
+  <text x="389" y="382" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Signer may be anywhere on earth. The online notary must be physically in Florida.</text>
+  <text x="389" y="403" text-anchor="middle" font-size="11.5" fill="#FFFFFF">Records duties: s. 117.245; rules under s. 117.295. Fee up to $25 per act: s. 117.275.</text>
+</svg>
