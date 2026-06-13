@@ -1,0 +1,88 @@
+<svg viewBox="0 0 760 460" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="460" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">Duties Owed Under Each Florida Brokerage Relationship</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#374151">Single agent owes the most; no brokerage relationship owes the floor</text>
+
+  <!-- Column headers -->
+  <rect x="30" y="74" width="220" height="40" rx="6" fill="#1E2A8E"/>
+  <text x="140" y="99" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Single Agent</text>
+  <rect x="270" y="74" width="220" height="40" rx="6" fill="#3E9B6B"/>
+  <text x="380" y="99" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Transaction Broker</text>
+  <text x="380" y="111" text-anchor="middle" font-size="10" fill="#FFFFFF">(the default)</text>
+  <rect x="510" y="74" width="220" height="40" rx="6" fill="#C4683A"/>
+  <text x="620" y="99" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">No Brokerage Relationship</text>
+
+  <!-- Row labels and cells: duty rows -->
+  <!-- Helper grid lines -->
+  <g font-size="12" fill="#111827">
+    <!-- Row 1: Honesty and fair dealing -->
+    <rect x="30" y="124" width="700" height="30" fill="#F3F4F6"/>
+    <text x="36" y="143" font-size="11" fill="#374151">Honest and fair dealing</text>
+    <text x="140" y="144" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+    <text x="380" y="144" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+    <text x="620" y="144" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+
+    <!-- Row 2: Accounting for funds -->
+    <rect x="30" y="156" width="700" height="30" fill="#FFFFFF"/>
+    <text x="36" y="175" font-size="11" fill="#374151">Accounting for all funds</text>
+    <text x="140" y="176" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+    <text x="380" y="176" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+    <text x="620" y="176" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+
+    <!-- Row 3: Disclose known material facts -->
+    <rect x="30" y="188" width="700" height="30" fill="#F3F4F6"/>
+    <text x="36" y="207" font-size="11" fill="#374151">Disclose known material facts</text>
+    <text x="140" y="208" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+    <text x="380" y="208" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+    <text x="620" y="208" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+
+    <!-- Row 4: Skill, care, diligence -->
+    <rect x="30" y="220" width="700" height="30" fill="#FFFFFF"/>
+    <text x="36" y="239" font-size="11" fill="#374151">Skill, care, and diligence</text>
+    <text x="140" y="240" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+    <text x="380" y="240" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+    <text x="620" y="240" text-anchor="middle" font-size="14" fill="#C4683A">No</text>
+
+    <!-- Row 5: Present all offers -->
+    <rect x="30" y="252" width="700" height="30" fill="#F3F4F6"/>
+    <text x="36" y="271" font-size="11" fill="#374151">Present all offers and counteroffers</text>
+    <text x="140" y="272" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+    <text x="380" y="272" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+    <text x="620" y="272" text-anchor="middle" font-size="14" fill="#C4683A">No</text>
+
+    <!-- Row 6: Confidentiality -->
+    <rect x="30" y="284" width="700" height="30" fill="#FFFFFF"/>
+    <text x="36" y="303" font-size="11" fill="#374151">Confidentiality</text>
+    <text x="140" y="304" text-anchor="middle" font-size="12" fill="#1E2A8E">Full</text>
+    <text x="380" y="304" text-anchor="middle" font-size="12" fill="#D4AF37">Limited</text>
+    <text x="620" y="304" text-anchor="middle" font-size="14" fill="#C4683A">No</text>
+
+    <!-- Row 7: Loyalty -->
+    <rect x="30" y="316" width="700" height="30" fill="#F3F4F6"/>
+    <text x="36" y="335" font-size="11" fill="#374151">Loyalty</text>
+    <text x="140" y="336" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+    <text x="380" y="336" text-anchor="middle" font-size="14" fill="#C4683A">No</text>
+    <text x="620" y="336" text-anchor="middle" font-size="14" fill="#C4683A">No</text>
+
+    <!-- Row 8: Obedience -->
+    <rect x="30" y="348" width="700" height="30" fill="#FFFFFF"/>
+    <text x="36" y="367" font-size="11" fill="#374151">Obedience</text>
+    <text x="140" y="368" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+    <text x="380" y="368" text-anchor="middle" font-size="14" fill="#C4683A">No</text>
+    <text x="620" y="368" text-anchor="middle" font-size="14" fill="#C4683A">No</text>
+
+    <!-- Row 9: Full disclosure -->
+    <rect x="30" y="380" width="700" height="30" fill="#F3F4F6"/>
+    <text x="36" y="399" font-size="11" fill="#374151">Full disclosure to the principal</text>
+    <text x="140" y="400" text-anchor="middle" font-size="14" fill="#3E9B6B">Yes</text>
+    <text x="380" y="400" text-anchor="middle" font-size="14" fill="#C4683A">No</text>
+    <text x="620" y="400" text-anchor="middle" font-size="14" fill="#C4683A">No</text>
+  </g>
+
+  <!-- column separators -->
+  <line x1="250" y1="124" x2="250" y2="410" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="490" y1="124" x2="490" y2="410" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="30" y="124" width="700" height="286" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="380" y="436" text-anchor="middle" font-size="11" fill="#374151">All three share the floor: honesty and fair dealing, accounting, and disclosure of known material facts.</text>
+</svg>

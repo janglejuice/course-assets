@@ -1,0 +1,84 @@
+<svg viewBox="0 0 760 720" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect width="760" height="720" fill="#ffffff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Florida Complaint and Discipline Process</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#374151">DBPR investigates and prosecutes. FREC decides probable cause and issues the final order.</text>
+
+  <!-- arrow marker -->
+  <defs>
+    <marker id="arw" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto">
+      <path d="M0,0 L8,5 L0,10 z" fill="#374151"/>
+    </marker>
+  </defs>
+
+  <!-- 1 Complaint filed -->
+  <rect x="280" y="78" width="200" height="46" rx="8" fill="#1E2A8E"/>
+  <text x="380" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">1. Complaint filed</text>
+  <text x="380" y="117" text-anchor="middle" font-size="11" fill="#E5E7EB">written and signed, with the DBPR</text>
+  <line x1="380" y1="124" x2="380" y2="148" stroke="#374151" stroke-width="2" marker-end="url(#arw)"/>
+
+  <!-- 2 Legally sufficient -->
+  <rect x="280" y="150" width="200" height="46" rx="8" fill="#1E2A8E"/>
+  <text x="380" y="172" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">2. Legally sufficient?</text>
+  <text x="380" y="189" text-anchor="middle" font-size="11" fill="#E5E7EB">if true, would it be a violation?</text>
+  <!-- dismiss branch -->
+  <line x1="480" y1="173" x2="600" y2="173" stroke="#C4683A" stroke-width="2" marker-end="url(#arw)"/>
+  <rect x="600" y="150" width="140" height="46" rx="8" fill="#C4683A"/>
+  <text x="670" y="178" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">No: dismissed</text>
+  <line x1="380" y1="196" x2="380" y2="220" stroke="#374151" stroke-width="2" marker-end="url(#arw)"/>
+
+  <!-- 3 Investigation -->
+  <rect x="280" y="222" width="200" height="46" rx="8" fill="#1E2A8E"/>
+  <text x="380" y="244" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">3. DBPR investigation</text>
+  <text x="380" y="261" text-anchor="middle" font-size="11" fill="#E5E7EB">records, interviews, response</text>
+  <line x1="380" y1="268" x2="380" y2="292" stroke="#374151" stroke-width="2" marker-end="url(#arw)"/>
+
+  <!-- 4 Probable cause panel -->
+  <rect x="280" y="294" width="200" height="46" rx="8" fill="#D4AF37"/>
+  <text x="380" y="316" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">4. Probable cause panel</text>
+  <text x="380" y="333" text-anchor="middle" font-size="11" fill="#141B5C">decides whether to charge, not guilt</text>
+  <!-- no PC branch -->
+  <line x1="480" y1="317" x2="600" y2="317" stroke="#C4683A" stroke-width="2" marker-end="url(#arw)"/>
+  <rect x="600" y="294" width="140" height="46" rx="8" fill="#C4683A"/>
+  <text x="670" y="316" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">No PC: closed</text>
+  <text x="670" y="332" text-anchor="middle" font-size="10" fill="#ffffff">or letter of guidance</text>
+  <line x1="380" y1="340" x2="380" y2="364" stroke="#374151" stroke-width="2" marker-end="url(#arw)"/>
+
+  <!-- 5 Administrative complaint -->
+  <rect x="280" y="366" width="200" height="46" rx="8" fill="#1E2A8E"/>
+  <text x="380" y="388" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">5. Administrative complaint</text>
+  <text x="380" y="405" text-anchor="middle" font-size="11" fill="#E5E7EB">formal charges; licensee responds</text>
+
+  <!-- fork lines down to two paths -->
+  <line x1="380" y1="412" x2="380" y2="432" stroke="#374151" stroke-width="2"/>
+  <line x1="200" y1="432" x2="560" y2="432" stroke="#374151" stroke-width="2"/>
+  <line x1="200" y1="432" x2="200" y2="456" stroke="#374151" stroke-width="2" marker-end="url(#arw)"/>
+  <line x1="560" y1="432" x2="560" y2="456" stroke="#374151" stroke-width="2" marker-end="url(#arw)"/>
+
+  <!-- left: formal hearing -->
+  <rect x="90" y="458" width="220" height="58" rx="8" fill="#3E9B6B"/>
+  <text x="200" y="480" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Facts disputed</text>
+  <text x="200" y="497" text-anchor="middle" font-size="12" fill="#ffffff">Formal hearing at DOAH</text>
+  <text x="200" y="512" text-anchor="middle" font-size="11" fill="#E5E7EB">administrative law judge</text>
+  <line x1="200" y1="516" x2="200" y2="540" stroke="#374151" stroke-width="2" marker-end="url(#arw)"/>
+  <rect x="90" y="542" width="220" height="46" rx="8" fill="#374151"/>
+  <text x="200" y="564" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">Recommended order</text>
+  <text x="200" y="581" text-anchor="middle" font-size="11" fill="#E5E7EB">findings and proposed penalty</text>
+  <line x1="200" y1="588" x2="380" y2="612" stroke="#374151" stroke-width="2" marker-end="url(#arw)"/>
+
+  <!-- right: informal hearing -->
+  <rect x="450" y="458" width="220" height="58" rx="8" fill="#3E9B6B"/>
+  <text x="560" y="480" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Facts not disputed</text>
+  <text x="560" y="497" text-anchor="middle" font-size="12" fill="#ffffff">Informal hearing</text>
+  <text x="560" y="512" text-anchor="middle" font-size="11" fill="#E5E7EB">directly before FREC</text>
+  <line x1="560" y1="516" x2="380" y2="612" stroke="#374151" stroke-width="2" marker-end="url(#arw)"/>
+
+  <!-- final order -->
+  <rect x="280" y="614" width="200" height="46" rx="8" fill="#141B5C"/>
+  <text x="380" y="636" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">Final order (FREC)</text>
+  <text x="380" y="653" text-anchor="middle" font-size="11" fill="#E5E7EB">the enforceable decision</text>
+  <line x1="380" y1="660" x2="380" y2="682" stroke="#374151" stroke-width="2" marker-end="url(#arw)"/>
+
+  <!-- appeal -->
+  <rect x="280" y="684" width="200" height="32" rx="8" fill="#ffffff" stroke="#141B5C" stroke-width="2"/>
+  <text x="380" y="705" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Appeal to District Court of Appeal</text>
+</svg>

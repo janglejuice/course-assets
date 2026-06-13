@@ -1,0 +1,54 @@
+<svg viewBox="0 0 760 470" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="470" fill="#FFFFFF"/>
+  <text x="380" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#141B5C">The Four Government Powers Over Private Land</text>
+  <text x="380" y="54" text-anchor="middle" font-size="13" fill="#374151">Remember them as PETE. Only eminent domain pays the owner.</text>
+
+  <!-- Center parcel -->
+  <rect x="320" y="200" width="120" height="86" rx="8" fill="#1E2A8E"/>
+  <text x="380" y="238" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Private</text>
+  <text x="380" y="258" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Land</text>
+
+  <!-- Connectors -->
+  <line x1="300" y1="160" x2="345" y2="205" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="460" y1="160" x2="415" y2="205" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="300" y1="330" x2="345" y2="285" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="460" y1="330" x2="415" y2="285" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- P: Police power (top left) -->
+  <rect x="40" y="92" width="250" height="84" rx="8" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2"/>
+  <circle cx="68" cy="120" r="14" fill="#3E9B6B"/>
+  <text x="68" y="125" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">P</text>
+  <text x="92" y="118" font-size="14" font-weight="bold" fill="#141B5C">Police Power</text>
+  <text x="92" y="138" font-size="11" fill="#374151">Regulate use: zoning, building</text>
+  <text x="92" y="153" font-size="11" fill="#374151">codes, environmental rules.</text>
+  <text x="92" y="168" font-size="11" font-weight="bold" fill="#3E9B6B">No payment to the owner.</text>
+
+  <!-- E: Eminent domain (top right) -->
+  <rect x="470" y="92" width="250" height="84" rx="8" fill="#FFFFFF" stroke="#D4AF37" stroke-width="2"/>
+  <circle cx="498" cy="120" r="14" fill="#D4AF37"/>
+  <text x="498" y="125" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">E</text>
+  <text x="522" y="118" font-size="14" font-weight="bold" fill="#141B5C">Eminent Domain</text>
+  <text x="522" y="138" font-size="11" fill="#374151">Take for a public use through</text>
+  <text x="522" y="153" font-size="11" fill="#374151">condemnation.</text>
+  <text x="522" y="168" font-size="11" font-weight="bold" fill="#C4683A">Must pay just compensation.</text>
+
+  <!-- T: Taxation (bottom left) -->
+  <rect x="40" y="320" width="250" height="84" rx="8" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2"/>
+  <circle cx="68" cy="348" r="14" fill="#3E9B6B"/>
+  <text x="68" y="353" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">T</text>
+  <text x="92" y="346" font-size="14" font-weight="bold" fill="#141B5C">Taxation</text>
+  <text x="92" y="366" font-size="11" fill="#374151">Property taxes and special</text>
+  <text x="92" y="381" font-size="11" fill="#374151">assessments. Unpaid amounts</text>
+  <text x="92" y="396" font-size="11" font-weight="bold" fill="#3E9B6B">become a priority lien.</text>
+
+  <!-- E: Escheat (bottom right) -->
+  <rect x="470" y="320" width="250" height="84" rx="8" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2"/>
+  <circle cx="498" cy="348" r="14" fill="#3E9B6B"/>
+  <text x="498" y="353" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">E</text>
+  <text x="522" y="346" font-size="14" font-weight="bold" fill="#141B5C">Escheat</text>
+  <text x="522" y="366" font-size="11" fill="#374151">State takes ownership when an</text>
+  <text x="522" y="381" font-size="11" fill="#374151">owner dies with no will and</text>
+  <text x="522" y="396" font-size="11" font-weight="bold" fill="#3E9B6B">no locatable heirs.</text>
+
+  <text x="380" y="448" text-anchor="middle" font-size="11" fill="#374151">Three powers limit the owner without paying; only eminent domain takes the land and pays just compensation.</text>
+</svg>

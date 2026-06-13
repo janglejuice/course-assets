@@ -1,0 +1,46 @@
+<svg viewBox="0 0 760 360" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="360" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#141B5C">The Path to an Active Florida Sales Associate License</text>
+
+  <!-- vertical connector spine -->
+  <line x1="60" y1="78" x2="60" y2="316" stroke="#E5E7EB" stroke-width="3"/>
+
+  <!-- Step 1 -->
+  <circle cx="60" cy="92" r="15" fill="#1E2A8E"/>
+  <text x="60" y="98" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">1</text>
+  <rect x="92" y="74" width="640" height="38" rx="6" fill="#1E2A8E"/>
+  <text x="108" y="91" font-size="14" font-weight="bold" fill="#FFFFFF">Apply and submit fingerprints</text>
+  <text x="108" y="106" font-size="11.5" fill="#D4AF37">File the application, pay fees, disclose background honestly</text>
+
+  <!-- Step 2 -->
+  <circle cx="60" cy="148" r="15" fill="#1E2A8E"/>
+  <text x="60" y="154" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">2</text>
+  <rect x="92" y="130" width="640" height="38" rx="6" fill="#1E2A8E"/>
+  <text x="108" y="147" font-size="14" font-weight="bold" fill="#FFFFFF">Get approved to test</text>
+  <text x="108" y="162" font-size="11.5" fill="#D4AF37">State clears the background review and notifies you</text>
+
+  <!-- Step 3 -->
+  <circle cx="60" cy="204" r="15" fill="#1E2A8E"/>
+  <text x="60" y="210" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">3</text>
+  <rect x="92" y="186" width="640" height="38" rx="6" fill="#1E2A8E"/>
+  <text x="108" y="203" font-size="14" font-weight="bold" fill="#FFFFFF">Pass the Pearson VUE state exam</text>
+  <text x="108" y="218" font-size="11.5" fill="#D4AF37">Multiple choice, score of at least 75 to pass</text>
+
+  <!-- inactive gap marker -->
+  <rect x="92" y="232" width="640" height="22" rx="4" fill="#C4683A"/>
+  <text x="380" y="247" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#FFFFFF">License is ISSUED but INACTIVE: you cannot work yet</text>
+
+  <!-- Step 4 -->
+  <circle cx="60" cy="278" r="15" fill="#3E9B6B"/>
+  <text x="60" y="284" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">4</text>
+  <rect x="92" y="260" width="640" height="38" rx="6" fill="#3E9B6B"/>
+  <text x="108" y="277" font-size="14" font-weight="bold" fill="#FFFFFF">A broker activates the license</text>
+  <text x="108" y="292" font-size="11.5" fill="#FFFFFF">Now ACTIVE: work under the broker's supervision and name</text>
+
+  <!-- Step 5 -->
+  <circle cx="60" cy="334" r="15" fill="#D4AF37"/>
+  <text x="60" y="340" text-anchor="middle" font-size="15" font-weight="bold" fill="#141B5C">5</text>
+  <rect x="92" y="316" width="640" height="38" rx="6" fill="#FFFFFF" stroke="#D4AF37" stroke-width="2"/>
+  <text x="108" y="333" font-size="14" font-weight="bold" fill="#141B5C">Complete post-license education before first renewal</text>
+  <text x="108" y="348" font-size="11.5" fill="#C4683A">Miss it and the license becomes null and void</text>
+</svg>

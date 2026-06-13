@@ -1,0 +1,93 @@
+<svg viewBox="0 0 520 540" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="520" height="540" fill="#ffffff"/>
+  <text x="260" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#141B5C">A Township and Its 36 Sections</text>
+  <text x="260" y="54" text-anchor="middle" font-size="13" fill="#374151">6 miles by 6 miles; numbering starts at NE corner, snakes back and forth</text>
+
+  <!-- direction labels -->
+  <text x="260" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">N</text>
+  <text x="260" y="520" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">S</text>
+  <text x="38" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">W</text>
+  <text x="482" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E2A8E">E</text>
+
+  <!-- grid: 6x6, origin x=70 y=90, cell 63 -->
+  <!-- outer border -->
+  <rect x="70" y="90" width="378" height="378" fill="#3E9B6B" fill-opacity="0.07" stroke="#141B5C" stroke-width="3"/>
+
+  <!-- Row 1: 1..6 right-to-left (1 at NE/right) -->
+  <!-- Row 2: 7..12 left-to-right (7 below 6, at left) -->
+  <!-- Row 3: 13..18 right-to-left -->
+  <!-- Row 4: 19..24 left-to-right -->
+  <!-- Row 5: 25..30 right-to-left -->
+  <!-- Row 6: 31..36 left-to-right (36 at SE/right) -->
+
+  <!-- We draw cells. cell width=63. columns x: 70,133,196,259,322,385 -->
+  <!-- rows y: 90,153,216,279,342,405 -->
+
+  <!-- gridlines -->
+  <g stroke="#1E2A8E" stroke-width="1">
+    <line x1="133" y1="90" x2="133" y2="468"/>
+    <line x1="196" y1="90" x2="196" y2="468"/>
+    <line x1="259" y1="90" x2="259" y2="468"/>
+    <line x1="322" y1="90" x2="322" y2="468"/>
+    <line x1="385" y1="90" x2="385" y2="468"/>
+    <line x1="70" y1="153" x2="448" y2="153"/>
+    <line x1="70" y1="216" x2="448" y2="216"/>
+    <line x1="70" y1="279" x2="448" y2="279"/>
+    <line x1="70" y1="342" x2="448" y2="342"/>
+    <line x1="70" y1="405" x2="448" y2="405"/>
+  </g>
+
+  <!-- section numbers, centered in each cell (cx = colx+31.5, cy = rowy+38) -->
+  <g font-size="20" font-weight="bold" fill="#141B5C" text-anchor="middle">
+    <!-- Row1 y=90 center 128 : cols left->right are 6,5,4,3,2,1 -->
+    <text x="101.5" y="138">6</text>
+    <text x="164.5" y="138">5</text>
+    <text x="227.5" y="138">4</text>
+    <text x="290.5" y="138">3</text>
+    <text x="353.5" y="138">2</text>
+    <text x="416.5" y="138" fill="#C4683A">1</text>
+    <!-- Row2 y=153 center 191 : 7,8,9,10,11,12 -->
+    <text x="101.5" y="201">7</text>
+    <text x="164.5" y="201">8</text>
+    <text x="227.5" y="201">9</text>
+    <text x="290.5" y="201">10</text>
+    <text x="353.5" y="201">11</text>
+    <text x="416.5" y="201">12</text>
+    <!-- Row3 y=216 center 254 : 18,17,16,15,14,13 -->
+    <text x="101.5" y="264">18</text>
+    <text x="164.5" y="264">17</text>
+    <text x="227.5" y="264">16</text>
+    <text x="290.5" y="264">15</text>
+    <text x="353.5" y="264">14</text>
+    <text x="416.5" y="264">13</text>
+    <!-- Row4 y=279 center 317 : 19,20,21,22,23,24 -->
+    <text x="101.5" y="327">19</text>
+    <text x="164.5" y="327">20</text>
+    <text x="227.5" y="327">21</text>
+    <text x="290.5" y="327">22</text>
+    <text x="353.5" y="327">23</text>
+    <text x="416.5" y="327">24</text>
+    <!-- Row5 y=342 center 380 : 30,29,28,27,26,25 -->
+    <text x="101.5" y="390">30</text>
+    <text x="164.5" y="390">29</text>
+    <text x="227.5" y="390">28</text>
+    <text x="290.5" y="390">27</text>
+    <text x="353.5" y="390">26</text>
+    <text x="416.5" y="390">25</text>
+    <!-- Row6 y=405 center 443 : 31,32,33,34,35,36 -->
+    <text x="101.5" y="453">31</text>
+    <text x="164.5" y="453">32</text>
+    <text x="227.5" y="453">33</text>
+    <text x="290.5" y="453">34</text>
+    <text x="353.5" y="453">35</text>
+    <text x="416.5" y="453" fill="#C4683A">36</text>
+  </g>
+
+  <!-- snake arrows showing direction at row ends -->
+  <!-- Row1 leftward arrow near top -->
+  <text x="416.5" y="118" text-anchor="middle" font-size="9" fill="#C4683A" font-weight="bold">START</text>
+
+  <!-- one section callout -->
+  <text x="260" y="496" text-anchor="middle" font-size="12" fill="#374151">Each section = 1 mile &#215; 1 mile = 1 sq mile = 640 acres</text>
+  <text x="260" y="514" text-anchor="middle" font-size="12" fill="#3E9B6B" font-weight="bold">36 sections &#215; 640 acres = 23,040 acres in a township</text>
+</svg>

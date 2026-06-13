@@ -1,0 +1,71 @@
+<svg viewBox="0 0 720 500" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+  <text x="360" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#141B5C">Sample Settlement Statement</text>
+  <text x="360" y="56" text-anchor="middle" font-size="13" fill="#374151">$400,000 sale, $320,000 new loan, $20,000 deposit, taxes $3,600/yr in arrears, close Apr 15</text>
+
+  <!-- BUYER PANEL -->
+  <rect x="20" y="74" width="330" height="380" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="2"/>
+  <rect x="20" y="74" width="330" height="34" rx="8" fill="#1E2A8E"/>
+  <text x="185" y="97" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">BUYER</text>
+  <text x="120" y="128" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">Debit (pays)</text>
+  <text x="265" y="128" text-anchor="middle" font-size="13" font-weight="bold" fill="#3E9B6B">Credit (favor)</text>
+  <line x1="32" y1="136" x2="338" y2="136" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="34" y="160" font-size="12" fill="#111827">Purchase price</text>
+  <text x="180" y="160" text-anchor="end" font-size="12" fill="#C4683A">$400,000</text>
+  <text x="34" y="184" font-size="12" fill="#111827">Note stamps</text>
+  <text x="180" y="184" text-anchor="end" font-size="12" fill="#C4683A">$1,120</text>
+  <text x="34" y="208" font-size="12" fill="#111827">Intangible tax</text>
+  <text x="180" y="208" text-anchor="end" font-size="12" fill="#C4683A">$640</text>
+  <text x="34" y="232" font-size="12" fill="#111827">Earnest deposit</text>
+  <text x="332" y="232" text-anchor="end" font-size="12" fill="#3E9B6B">$20,000</text>
+  <text x="34" y="256" font-size="12" fill="#111827">New loan</text>
+  <text x="332" y="256" text-anchor="end" font-size="12" fill="#3E9B6B">$320,000</text>
+  <text x="34" y="280" font-size="12" fill="#111827">Tax proration (seller's share)</text>
+  <text x="332" y="280" text-anchor="end" font-size="12" fill="#3E9B6B">$1,050</text>
+
+  <line x1="32" y1="296" x2="338" y2="296" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="34" y="318" font-size="12" font-weight="bold" fill="#141B5C">Subtotals</text>
+  <text x="180" y="318" text-anchor="end" font-size="12" font-weight="bold" fill="#C4683A">$401,760</text>
+  <text x="332" y="318" text-anchor="end" font-size="12" font-weight="bold" fill="#3E9B6B">$341,050</text>
+
+  <rect x="32" y="332" width="306" height="46" rx="6" fill="#D4AF37"/>
+  <text x="44" y="352" font-size="12" font-weight="bold" fill="#141B5C">Cash buyer brings to close</text>
+  <text x="44" y="370" font-size="11" fill="#141B5C">(added as a buyer credit to balance)</text>
+  <text x="326" y="361" text-anchor="end" font-size="15" font-weight="bold" fill="#141B5C">$60,710</text>
+
+  <text x="185" y="402" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Both columns balance at $401,760</text>
+
+  <!-- SELLER PANEL -->
+  <rect x="370" y="74" width="330" height="380" rx="8" fill="#ffffff" stroke="#1E2A8E" stroke-width="2"/>
+  <rect x="370" y="74" width="330" height="34" rx="8" fill="#141B5C"/>
+  <text x="535" y="97" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">SELLER</text>
+  <text x="470" y="128" text-anchor="middle" font-size="13" font-weight="bold" fill="#C4683A">Debit (pays)</text>
+  <text x="615" y="128" text-anchor="middle" font-size="13" font-weight="bold" fill="#3E9B6B">Credit (favor)</text>
+  <line x1="382" y1="136" x2="688" y2="136" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="384" y="160" font-size="12" fill="#111827">Purchase price</text>
+  <text x="682" y="160" text-anchor="end" font-size="12" fill="#3E9B6B">$400,000</text>
+  <text x="384" y="184" font-size="12" fill="#111827">Loan payoff</text>
+  <text x="530" y="184" text-anchor="end" font-size="12" fill="#C4683A">$210,000</text>
+  <text x="384" y="208" font-size="12" fill="#111827">Commission (6%)</text>
+  <text x="530" y="208" text-anchor="end" font-size="12" fill="#C4683A">$24,000</text>
+  <text x="384" y="232" font-size="12" fill="#111827">Deed stamps</text>
+  <text x="530" y="232" text-anchor="end" font-size="12" fill="#C4683A">$2,800</text>
+  <text x="384" y="256" font-size="12" fill="#111827">Tax proration (seller's share)</text>
+  <text x="530" y="256" text-anchor="end" font-size="12" fill="#C4683A">$1,050</text>
+
+  <line x1="382" y1="296" x2="688" y2="296" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="384" y="318" font-size="12" font-weight="bold" fill="#141B5C">Subtotals</text>
+  <text x="530" y="318" text-anchor="end" font-size="12" font-weight="bold" fill="#C4683A">$237,850</text>
+  <text x="682" y="318" text-anchor="end" font-size="12" font-weight="bold" fill="#3E9B6B">$400,000</text>
+
+  <rect x="382" y="332" width="306" height="46" rx="6" fill="#3E9B6B"/>
+  <text x="394" y="352" font-size="12" font-weight="bold" fill="#ffffff">Cash seller receives</text>
+  <text x="394" y="370" font-size="11" fill="#ffffff">(added as a seller debit to balance)</text>
+  <text x="676" y="361" text-anchor="end" font-size="15" font-weight="bold" fill="#ffffff">$162,150</text>
+
+  <text x="535" y="402" text-anchor="middle" font-size="12" font-weight="bold" fill="#141B5C">Both columns balance at $400,000</text>
+
+  <text x="360" y="438" text-anchor="middle" font-size="12" fill="#C4683A" font-weight="bold">The $1,050 tax proration is a seller debit and a buyer credit: the same item, opposite sides.</text>
+</svg>

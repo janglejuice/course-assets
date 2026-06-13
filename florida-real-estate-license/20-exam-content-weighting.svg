@@ -1,0 +1,45 @@
+<svg viewBox="0 0 760 460" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="460" fill="#FFFFFF"/>
+  <text x="380" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">How the 100 Questions Are Generally Split</text>
+  <text x="380" y="66" text-anchor="middle" font-size="13" fill="#374151">A widely published estimate of the Florida sales associate exam. Confirm current details with the state.</text>
+
+  <!-- Stacked horizontal bar of 100 questions -->
+  <text x="60" y="118" font-size="14" font-weight="bold" fill="#111827">All 100 questions</text>
+  <rect x="60" y="130" width="288" height="54" fill="#1E2A8E"/>
+  <rect x="348" y="130" width="288" height="54" fill="#3E9B6B"/>
+  <rect x="636" y="130" width="64" height="54" fill="#D4AF37"/>
+  <rect x="60" y="130" width="640" height="54" fill="none" stroke="#141B5C" stroke-width="2"/>
+
+  <text x="204" y="161" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">~45 Law</text>
+  <text x="492" y="161" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">~45 Principles</text>
+  <text x="668" y="161" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">~10</text>
+  <text x="668" y="205" text-anchor="middle" font-size="12" fill="#374151">Math</text>
+
+  <!-- Three explanatory cards -->
+  <rect x="60" y="240" width="200" height="150" rx="8" fill="#FFFFFF" stroke="#1E2A8E" stroke-width="2"/>
+  <rect x="60" y="240" width="200" height="34" rx="8" fill="#1E2A8E"/>
+  <text x="160" y="263" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">License Law</text>
+  <text x="76" y="296" font-size="12" fill="#374151">Chapter 475, FREC,</text>
+  <text x="76" y="316" font-size="12" fill="#374151">relationships, escrow,</text>
+  <text x="76" y="336" font-size="12" fill="#374151">violations, the</text>
+  <text x="76" y="356" font-size="12" fill="#374151">Recovery Fund.</text>
+  <text x="76" y="380" font-size="12" font-weight="bold" fill="#1E2A8E">Modules 1 to 6</text>
+
+  <rect x="280" y="240" width="200" height="150" rx="8" fill="#FFFFFF" stroke="#3E9B6B" stroke-width="2"/>
+  <rect x="280" y="240" width="200" height="34" rx="8" fill="#3E9B6B"/>
+  <text x="380" y="263" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Principles and Practice</text>
+  <text x="296" y="296" font-size="12" fill="#374151">Property, title, deeds,</text>
+  <text x="296" y="316" font-size="12" fill="#374151">contracts, financing,</text>
+  <text x="296" y="336" font-size="12" fill="#374151">valuation, zoning.</text>
+  <text x="296" y="380" font-size="12" font-weight="bold" fill="#3E9B6B">Modules 7 to 19</text>
+
+  <rect x="500" y="240" width="200" height="150" rx="8" fill="#FFFFFF" stroke="#C4683A" stroke-width="2"/>
+  <rect x="500" y="240" width="200" height="34" rx="8" fill="#C4683A"/>
+  <text x="600" y="263" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Real Estate Math</text>
+  <text x="516" y="296" font-size="12" fill="#374151">Prorations, commission,</text>
+  <text x="516" y="316" font-size="12" fill="#374151">doc stamps, interest,</text>
+  <text x="516" y="336" font-size="12" fill="#374151">area, taxes.</text>
+  <text x="516" y="380" font-size="12" font-weight="bold" fill="#C4683A">Module 15</text>
+
+  <text x="380" y="430" text-anchor="middle" font-size="14" font-weight="bold" fill="#141B5C">Passing score: 75 out of 100. Every question counts the same.</text>
+</svg>

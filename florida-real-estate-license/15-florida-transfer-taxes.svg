@@ -1,0 +1,46 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#ffffff"/>
+  <text x="320" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#141B5C">Florida's Three Transfer Charges</text>
+  <text x="320" y="62" text-anchor="middle" font-size="14" fill="#374151">Learn which document each rides on, then compute each separately</text>
+
+  <!-- Column 1: Deed stamps -->
+  <rect x="30" y="90" width="180" height="280" rx="10" fill="#1E2A8E"/>
+  <rect x="30" y="90" width="180" height="56" rx="10" fill="#141B5C"/>
+  <text x="120" y="118" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Doc Stamps</text>
+  <text x="120" y="138" text-anchor="middle" font-size="16" font-weight="bold" fill="#D4AF37">on the DEED</text>
+  <text x="120" y="180" text-anchor="middle" font-size="13" fill="#E5E7EB">Based on the</text>
+  <text x="120" y="198" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">SALE PRICE</text>
+  <text x="120" y="248" text-anchor="middle" font-size="24" font-weight="bold" fill="#D4AF37">$0.70</text>
+  <text x="120" y="270" text-anchor="middle" font-size="13" fill="#E5E7EB">per $100 of price</text>
+  <text x="120" y="312" text-anchor="middle" font-size="12" fill="#E5E7EB">round price up</text>
+  <text x="120" y="328" text-anchor="middle" font-size="12" fill="#E5E7EB">to next $100</text>
+  <text x="120" y="356" text-anchor="middle" font-size="12" fill="#3E9B6B" font-weight="bold">seller usually pays</text>
+
+  <!-- Column 2: Note stamps -->
+  <rect x="230" y="90" width="180" height="280" rx="10" fill="#1E2A8E"/>
+  <rect x="230" y="90" width="180" height="56" rx="10" fill="#141B5C"/>
+  <text x="320" y="118" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Doc Stamps</text>
+  <text x="320" y="138" text-anchor="middle" font-size="16" font-weight="bold" fill="#D4AF37">on the NOTE</text>
+  <text x="320" y="180" text-anchor="middle" font-size="13" fill="#E5E7EB">Based on the</text>
+  <text x="320" y="198" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">LOAN AMOUNT</text>
+  <text x="320" y="248" text-anchor="middle" font-size="24" font-weight="bold" fill="#D4AF37">$0.35</text>
+  <text x="320" y="270" text-anchor="middle" font-size="13" fill="#E5E7EB">per $100 of loan</text>
+  <text x="320" y="312" text-anchor="middle" font-size="12" fill="#E5E7EB">round loan up</text>
+  <text x="320" y="328" text-anchor="middle" font-size="12" fill="#E5E7EB">to next $100</text>
+  <text x="320" y="356" text-anchor="middle" font-size="12" fill="#3E9B6B" font-weight="bold">buyer usually pays</text>
+
+  <!-- Column 3: Intangible tax -->
+  <rect x="430" y="90" width="180" height="280" rx="10" fill="#1E2A8E"/>
+  <rect x="430" y="90" width="180" height="56" rx="10" fill="#141B5C"/>
+  <text x="520" y="118" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Intangible Tax</text>
+  <text x="520" y="138" text-anchor="middle" font-size="16" font-weight="bold" fill="#D4AF37">on the MORTGAGE</text>
+  <text x="520" y="180" text-anchor="middle" font-size="13" fill="#E5E7EB">Based on the</text>
+  <text x="520" y="198" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">LOAN AMOUNT</text>
+  <text x="520" y="248" text-anchor="middle" font-size="24" font-weight="bold" fill="#D4AF37">$0.002</text>
+  <text x="520" y="270" text-anchor="middle" font-size="13" fill="#E5E7EB">per $1 of loan</text>
+  <text x="520" y="312" text-anchor="middle" font-size="12" fill="#E5E7EB">2 mills; no</text>
+  <text x="520" y="328" text-anchor="middle" font-size="12" fill="#E5E7EB">$100 rounding</text>
+  <text x="520" y="356" text-anchor="middle" font-size="12" fill="#3E9B6B" font-weight="bold">buyer usually pays</text>
+
+  <text x="320" y="402" text-anchor="middle" font-size="12" fill="#C4683A" font-weight="bold">All cash, no loan: only the deed stamps apply (no note, no mortgage).</text>
+</svg>
